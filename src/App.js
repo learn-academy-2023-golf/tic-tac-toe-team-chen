@@ -1,3 +1,5 @@
+// App.js
+
 import React, { useState } from 'react'
 import Square from './components/Square'
 import './App.css'
@@ -8,7 +10,12 @@ const App = () => {
   return (
     <>
       <h1>Tic Tac Toe</h1>
-      <Square />
+      <div className="app">
+        <div className="gameBoard">
+        {squares.map((squares) => <Square/>)}
+        </div>
+      </div>
+      
     </>
   )
 }

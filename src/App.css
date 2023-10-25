@@ -1,5 +1,33 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.gameBoard {
+  /* border: 2px solid black; */
+  
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 100px;
+}
+
 .square {
   border: 2px solid black;
   height: 100px;
   width: 100px;
+  text-align: center;
+  background-color: rgb(188, 188, 188);
+}
+
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBq57nelZ1rdKYTT7vsOBVuk4tnFaPTUAk2g&usqp=CAU');
+  background-size: cover;
+  background-position: center;
 }
